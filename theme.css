@@ -1,5 +1,30 @@
 body {
-	--text-normal: red;
+	--font-text-theme: Charter;
+	--font-size: 20px;
+}
+
+/* Editing View */
+.markdown-preview-view {
+	/* Headers */
+	
+	/* Text */
+	font-size: var(--font-size);
+    font-family: charter;
+    
+	/* Blocks */
+
+}
+
+/* Reading View */
+.markdown-source-view.mod-cm6 .cm-scroller {
+	/* Headers */
+	
+	/* Text */
+	font-size: var(--font-size);
+    font-family: charter;
+    
+	/* Blocks */
+	
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
