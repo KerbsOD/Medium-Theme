@@ -24,7 +24,7 @@ body {
 
 /* Editing View */
 .markdown-preview-view {
-	font-size:   var(--font-size);
+	font-size: var(--font-size);
     font-family: var(--font-text-theme);
 }
 
@@ -71,6 +71,15 @@ body {
 }
 
 .external-link:hover {
+	color: #000000;
+}
+
+.markdown-source-view.mod-cm6 .cm-link .cm-underline, .markdown-source-view.mod-cm6 .cm-url .cm-underline {
+    text-decoration-line: var(--link-external-decoration);
+	color: #000000;
+}
+
+.markdown-source-view.mod-cm6 .cm-link .cm-underline:hover, .markdown-source-view.mod-cm6 .cm-url .cm-underline :hover {
 	color: #000000;
 }
 
