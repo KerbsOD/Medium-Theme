@@ -1,3 +1,6 @@
+/* ############################################################################## */
+/* ############################## GENERAL SETTINGS ############################## */
+/* ############################################################################## */
 body {
 	--font-text-theme: Charter;
 	--font-size: 1.3125em;
@@ -22,65 +25,9 @@ body {
 	--block-background: #F2F2F2;
 }
 
-/* Editing View */
-.markdown-preview-view {
-	font-size: var(--font-size);
-    font-family: var(--font-text-theme);
-}
-
-/* Reading View */
-.markdown-source-view.mod-cm6 .cm-scroller {
-	font-size:   var(--font-size);
-    font-family: var(--font-text-theme);
-}
-
-/* Inline title settings */
 .inline-title {
 	font-size:   var(--inline-size);
 	font-family: var(--font-header-theme);
-}
-
-/* bloque de texto */
-.markdown-rendered p {
-    margin-block-start: var(--p-spacing);
-    margin-block-end: 2.5rem;
-}
-
-.markdown-rendered pre {
-    position: relative;
-    padding: var(--size-4-4) var(--size-4-5);
-    min-height: 38px;
-    background-color: var(--block-background);
-    border-radius: var(--code-radius);
-    white-space: var(--code-white-space);
-    overflow-x: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	font-size: 18;
-}
-
-.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
-	display: none;
-}
-
-.external-link {
-	color: #000000;
-	background-image: none;
-	padding-right: 0px;
-	text-decoration-color: #000000;
-}
-
-.external-link:hover {
-	color: #000000;
-}
-
-.markdown-source-view.mod-cm6 .cm-link .cm-underline, .markdown-source-view.mod-cm6 .cm-url .cm-underline {
-    text-decoration-line: var(--link-external-decoration);
-	color: #000000;
-}
-
-.markdown-source-view.mod-cm6 .cm-link .cm-underline:hover, .markdown-source-view.mod-cm6 .cm-url .cm-underline :hover {
-	color: #000000;
 }
 
 .cm-s-obsidian span.cm-link {
@@ -106,3 +53,63 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
+
+/* ########################################################################## */
+/* ############################## EDITING VIEW ############################## */
+/* ########################################################################## */
+.markdown-preview-view {
+	font-size: var(--font-size);
+    font-family: var(--font-text-theme);
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg, .cm-s-obsidian div.HyperMD-codeblock-end-bg {
+    background-color: var(--code-background);
+}
+
+.markdown-source-view.mod-cm6 .cm-link .cm-underline, .markdown-source-view.mod-cm6 .cm-url .cm-underline {
+    text-decoration-line: var(--link-external-decoration);
+	color: #000000;
+}
+
+.markdown-source-view.mod-cm6 .cm-link .cm-underline:hover, .markdown-source-view.mod-cm6 .cm-url .cm-underline :hover {
+	color: black;
+}
+
+/* ########################################################################## */
+/* ############################## READING VIEW ############################## */
+/* ########################################################################## */
+.markdown-source-view.mod-cm6 .cm-scroller {
+	font-size:   var(--font-size);
+    font-family: var(--font-text-theme);
+}
+
+.markdown-rendered p {
+    margin-block-start: var(--p-spacing);
+    margin-block-end: 2.5rem;
+}
+
+.markdown-rendered pre {
+    position: relative;
+    padding: var(--size-4-4) var(--size-4-5);
+    min-height: 38px;
+    background-color: var(--block-background);
+    border-radius: var(--code-radius);
+    white-space: var(--code-white-space);
+    overflow-x: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 18px;
+}
+
+.external-link {
+	color: #000000;
+	background-image: none;
+	padding-right: 0px;
+	text-decoration-color: #000000;
+}
+
+.external-link:hover {
+	color: #000000;
+}
+
