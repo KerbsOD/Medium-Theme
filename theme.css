@@ -97,7 +97,6 @@ svg * {
 .cm-s-obsidian span.cm-quote {
 	font-style: italic;
 	font-size: 19.5px;
-	padding-left: 0px;
 }
 
 /* ########################################################################## */
@@ -144,4 +143,14 @@ svg * {
 	left: -20px;
 	font-size: 19.5px;
 	padding-left: 20px;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    background-color: #F9F9F9;
+	border-style: solid;
+	border-color: #E5E5E5;
+	border-radius: 5px;
+	border-width: 1.5px;
+	padding: 30px;
+	font-size: 15px;
 }
