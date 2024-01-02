@@ -63,6 +63,22 @@ body {
 	display: none;
 }
 
+.external-link {
+	color: #000000;
+	background-image: none;
+	padding-right: 0px;
+	text-decoration-color: #000000;
+}
+
+.external-link:hover {
+	color: #000000;
+}
+
+.cm-s-obsidian span.cm-link {
+    color: black;
+    word-break: break-word;
+}
+
 svg * {
 	stroke-linecap: square;
 	stroke-linejoin: miter;
