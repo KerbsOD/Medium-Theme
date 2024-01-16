@@ -14,5 +14,4 @@ At the bottom we have our imitation in obsidian.
 ![alt text](https://github.com/KerbsOD/Medium-Theme/blob/master/screenshots/Blockquote.jpg)
 
 # Installation
-I've not uploaded it to the official Obsidian repositories for copyright reasons regarding the fonts. 
-This is just a config file.
+I haven't uploaded it to Obsidian's official repositories for copyright reasons regarding the sources. This is just a configuration file.
